@@ -1,18 +1,26 @@
 body {
+    background: #1e1f24;
     color: #333;
     text-align: center;
     font-family: Arial;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
 #header {
-    background: #33A;
+    background: #37488b;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+}
+
+#header #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #header #tagline {
@@ -33,5 +41,6 @@ body {
 }
 
 #post {
+    background: white;
     padding: 1em;
 }
